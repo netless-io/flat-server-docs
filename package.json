@@ -1,0 +1,28 @@
+{
+  "name": "flat-server-docs",
+  "version": "1.0.0",
+  "description": "flat server docs(api / configs / types)",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs --port 5002"
+  },
+  "keywords": ["flat", "agora-flat", "flat-server-docs"],
+  "author": "Black-Hole<158blackhole@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.10",
+    "vue": "^3.2.37"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "@types/react",
+        "react",
+        "react-dom"
+      ]
+    }
+  }
+}
