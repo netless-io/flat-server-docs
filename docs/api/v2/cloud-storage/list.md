@@ -83,10 +83,12 @@ HTTP Status Code: `200`
             fileName: string;
             fileSize: number;
             fileURL: string;
-            whiteboardConvertPayload?: WhiteboardConvertPayload;
-            whiteboardProjectorPayload?: WhiteboardProjectorPayload;
             resourceType: FileResourceType;
             createAt: number;
+            meta: {
+                whiteboardConvert?: WhiteboardConvertPayload;
+                whiteboardProjector?: WhiteboardProjectorPayload;
+            }
         }>;
         canCreateDirectory: boolean;
     }
@@ -125,17 +127,17 @@ When [FileResourceType.Directory](/types/file-resource-type#Directory), this val
 
 Creation time of the document
 
-#### items[].whiteboardConvertPayload?
-
-For more information: [WhiteboardConvertPayload](/types/file-payload)
-
-#### items[].WhiteboardProjectorPayload?
-
-For more information: [WhiteboardProjectorPayload](/types/file-payload)
-
 #### items[].resourceType
 
 For more information: [FileResourceType](/types/file-resource-type)
+
+#### items[].meta?.whiteboardConvert
+
+For more information: [WhiteboardConvertPayload](/types/file-payload)
+
+#### items[].meta?.whiteboardProjector
+
+For more information: [WhiteboardProjectorPayload](/types/file-payload)
 
 #### canCreateDirectory
 
