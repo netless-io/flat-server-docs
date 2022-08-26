@@ -30,6 +30,14 @@ export default [
             {
                 text: "upload finish",
                 link: "/api/v2/cloud-storage/upload-finish"
+            },
+            {
+                text: "convert start",
+                link: "/api/v2/cloud-storage/convert-start"
+            },
+            {
+                text: "convert finish",
+                link: "/api/v2/cloud-storage/convert-finish"
             }
         ]
     }
