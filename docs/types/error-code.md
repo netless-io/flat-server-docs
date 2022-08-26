@@ -49,6 +49,8 @@ enum ErrorCode {
     FileConvertFailed,
     FileIsConverting,
     FileIsConvertWaiting,
+    FileNotIsConvertNone,
+    FileNotIsConverting,
 
     LoginGithubSuspended = 900000,
     LoginGithubURLMismatch,
@@ -201,6 +203,14 @@ File is converting
 ### FileIsConvertWaiting = 800003
 
 File is convert wating
+
+### FileNotIsConvertNone = 800004
+
+File [convertStep](/types/file-convert-step) not is [ConvertStep.None](/types/file-convert-step)
+
+### FileNotIsConverting = 800005
+
+File [convertStep](/types/file-convert-step) not is [ConvertStep.Converting](/types/file-convert-step)
 
 ### LoginGithubSuspended = 900000
 
