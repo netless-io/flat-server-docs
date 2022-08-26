@@ -17,14 +17,14 @@ interface ConvertPayload {
 
 // e.g: ppt / pdf
 interface WhiteboardConvertPayload extends RegionPayload, ConvertPayload {
-    taskUUID: string;
-    taskToken: string;
+    taskUUID?: string;
+    taskToken?: string;
 }
 
 // e.g: pptx
 interface WhiteboardProjectorPayload extends RegionPayload, ConvertPayload {
-    taskUUID: string;
-    taskToken: string;
+    taskUUID?: string;
+    taskToken?: string;
 }
 
 // e.g: mp4 / mp3 / png
