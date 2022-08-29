@@ -28,14 +28,14 @@ interface WhiteboardProjectorPayload extends RegionPayload, ConvertPayload {
 }
 
 // e.g: mp4 / mp3 / png
-interface NormalResourcesPayloadSchema {}
+interface NormalResourcesPayload {}
 
 interface DirectoryPayload {}
 
 type FilePayload =
     | WhiteboardConvertPayload
     | WhiteboardProjectorPayload
-    | NormalResourcesPayloadSchema
+    | NormalResourcesPayload
     | DirectoryPayload;
 ```
 
