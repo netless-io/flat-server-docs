@@ -53,7 +53,7 @@ Number of displays per page
 Sort by file creation time
 
 ::: tip
-Folders are always at the top
+directories are always at the top
 :::
 
 * enum: `ASC | DESC`
@@ -61,7 +61,7 @@ Folders are always at the top
 
 #### directoryPath
 
-Path to the folder to be viewed
+Path to the directory to be viewed
 
 * minLength: `1`
 * maxLength: `300`
@@ -141,7 +141,7 @@ For more information: [WhiteboardProjectorPayload](/types/file-payload)
 
 #### canCreateDirectory
 
-Is it possible to continue creating folders in the current directory
+Is it possible to continue creating new directories in the current directory
 
 ### Failed
 
