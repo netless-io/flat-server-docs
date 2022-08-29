@@ -19,13 +19,13 @@ import{_ as s,c as a,o as n,a as l}from"./app.e5bca581.js";const A=JSON.parse('{
 <span class="line"><span style="color:#89DDFF;">}</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#676E95;">// e.g: mp4 / mp3 / png</span></span>
-<span class="line"><span style="color:#C792EA;">interface</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">NormalResourcesPayloadSchema</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">{}</span></span>
+<span class="line"><span style="color:#C792EA;">interface</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">NormalResourcesPayload</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">{}</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#C792EA;">interface</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">DirectoryPayload</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">{}</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#C792EA;">type</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">FilePayload</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">=</span></span>
 <span class="line"><span style="color:#A6ACCD;">    </span><span style="color:#89DDFF;">|</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">WhiteboardConvertPayload</span></span>
 <span class="line"><span style="color:#A6ACCD;">    </span><span style="color:#89DDFF;">|</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">WhiteboardProjectorPayload</span></span>
-<span class="line"><span style="color:#A6ACCD;">    </span><span style="color:#89DDFF;">|</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">NormalResourcesPayloadSchema</span></span>
+<span class="line"><span style="color:#A6ACCD;">    </span><span style="color:#89DDFF;">|</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">NormalResourcesPayload</span></span>
 <span class="line"><span style="color:#A6ACCD;">    </span><span style="color:#89DDFF;">|</span><span style="color:#A6ACCD;"> </span><span style="color:#FFCB6B;">DirectoryPayload</span><span style="color:#89DDFF;">;</span></span>
-<span class="line"></span></code></pre></div><p>Extends Type: <a href="/types/file-convert-step.html">FileConvertStep</a></p>`,6),e=[o];function t(c,r,y,i,C,F){return n(),a("div",null,e)}const d=s(p,[["render",t]]);export{A as __pageData,d as default};
+<span class="line"></span></code></pre></div><p>Extends Type: <a href="/types/file-convert-step.html">FileConvertStep</a></p>`,6),e=[o];function t(r,c,y,i,C,F){return n(),a("div",null,e)}const d=s(p,[["render",t]]);export{A as __pageData,d as default};
