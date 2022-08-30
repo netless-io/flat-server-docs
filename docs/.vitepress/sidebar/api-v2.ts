@@ -40,5 +40,15 @@ export default [
                 link: "/api/v2/cloud-storage/convert-finish"
             }
         ]
+    },
+    {
+        text: "user",
+        collapsible: true,
+        items: [
+            {
+                text: "rename",
+                link: "/api/v2/user/rename",
+            },
+        ]
     }
 ]
