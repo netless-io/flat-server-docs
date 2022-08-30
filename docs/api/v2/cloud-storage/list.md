@@ -29,9 +29,9 @@ POST /v2/cloud-storage/list
 ```ts{2-5}
 {
     "page": number;
+    "directoryPath": string;
     "size"?: number;
     "order"?: "ASC" | "DESC";
-    "directoryPath"?: string;
 }
 ```
 
@@ -39,6 +39,14 @@ POST /v2/cloud-storage/list
 
 * minimum: `1`
 * maximum: `50`
+
+#### directoryPath
+
+Path to the folder to be viewed
+
+* minLength: `1`
+* maxLength: `300`
+* format: [directory-path](/misc/ajv-formats/directory-path)
 
 #### size
 
@@ -58,14 +66,6 @@ directories are always at the top
 
 * enum: `ASC | DESC`
 * default: `ASC`
-
-#### directoryPath
-
-Path to the directory to be viewed
-
-* minLength: `1`
-* maxLength: `300`
-* format: [directory-path](/misc/ajv-formats/directory-path)
 
 ## Response
 
