@@ -78,7 +78,7 @@ HTTP Status Code: `200`
     status: Status.Success,
     data: {
         totalUsage: number;
-        items: Array<{
+        files: Array<{
             fileUUID: string;
             fileName: string;
             fileSize: number;
@@ -101,15 +101,15 @@ Extends Type: [Status](/types/status), [WhiteboardConvertPayload](/types/file-pa
 
 Total usage of current users
 
-#### items[].fileUUID
+#### files[].fileUUID
 
 UUID of the current document
 
-#### items[].fileName
+#### files[].fileName
 
 Current file name
 
-#### items[].fileSize
+#### files[].fileSize
 
 Only the following file categories exist with file sizes
 
@@ -119,23 +119,23 @@ Only the following file categories exist with file sizes
 
 For other categories, this value is `0`
 
-#### items[].fileURL
+#### files[].fileURL
 
 When [FileResourceType.Directory](/types/file-resource-type#Directory), this value is a meaningless string and can be ignored
 
-#### items[].createAt
+#### files[].createAt
 
 Creation time of the document
 
-#### items[].resourceType
+#### files[].resourceType
 
 For more information: [FileResourceType](/types/file-resource-type)
 
-#### items[].meta?.whiteboardConvert
+#### files[].meta?.whiteboardConvert
 
 For more information: [WhiteboardConvertPayload](/types/file-payload)
 
-#### items[].meta?.whiteboardProjector
+#### files[].meta?.whiteboardProjector
 
 For more information: [WhiteboardProjectorPayload](/types/file-payload)
 
