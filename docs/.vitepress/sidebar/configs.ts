@@ -7,6 +7,10 @@ export default [
                 text: "cloud-storage",
                 link: "/configs/cloud-storage",
             },
+            {
+                text: "user",
+                link: "/configs/user",
+            },
         ]
     }
 ]
