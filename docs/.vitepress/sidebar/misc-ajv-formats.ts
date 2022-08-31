@@ -14,6 +14,10 @@ export default [
             {
                 text: "uuid-v4",
                 link: "/misc/ajv-formats/uuid-v4",
+            },
+            {
+                text: "avatar-suffix",
+                link: "/misc/ajv-formats/avatar-suffix",
             }
         ]
     }

@@ -49,6 +49,14 @@ export default [
                 text: "rename",
                 link: "/api/v2/user/rename",
             },
+            {
+                text: "upload avatar start",
+                link: "/api/v2/user/upload-avatar-start",
+            },
+            {
+                text: "upload avatar finish",
+                link: "/api/v2/user/upload-avatar-finish",
+            },
         ]
     }
 ]
