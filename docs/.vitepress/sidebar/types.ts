@@ -23,6 +23,10 @@ export default [
             {
                 text: "FilePayload",
                 link: "/types/file-payload",
+            },
+            {
+                text: "DeveloperOAuthScope",
+                link: "/types/developer-oauth-scope"
             }
         ]
     }

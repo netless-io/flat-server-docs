@@ -61,6 +61,10 @@ enum ErrorCode {
     SMSAlreadyBinding,
 
     CensorshipFailed = 120000,
+
+    OAuthUUIDNotFound = 130000,
+    OAuthClientIDNotFound,
+    OAuthSecretUUIDNotFound,
 }
 ```
 
@@ -239,3 +243,15 @@ Mobile number is already binding
 ### CensorshipFailed = 120000
 
 There is a content irregularity
+
+### OAuthUUIDNotFound = 130000
+
+oauth uuid not found
+
+### OAuthClientIDNotFound = 130001
+
+oauth client id not found
+
+### OAuthSecretUUIDNotFound = 130002
+
+oauth secret uuid not found

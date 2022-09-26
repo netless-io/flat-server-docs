@@ -11,6 +11,10 @@ export default [
                 text: "user",
                 link: "/configs/user",
             },
+            {
+                text: "oauth",
+                link: "/configs/oauth",
+            }
         ]
     }
 ]

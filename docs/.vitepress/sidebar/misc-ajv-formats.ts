@@ -18,6 +18,10 @@ export default [
             {
                 text: "avatar-suffix",
                 link: "/misc/ajv-formats/avatar-suffix",
+            },
+            {
+                text: "oauth-logo-suffix",
+                link: "/misc/ajv-formats/oauth-logo-suffix",
             }
         ]
     }

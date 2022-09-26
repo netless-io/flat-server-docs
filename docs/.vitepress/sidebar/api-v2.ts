@@ -58,5 +58,61 @@ export default [
                 link: "/api/v2/user/upload-avatar-finish",
             },
         ]
+    },
+    {
+        text: "developer",
+        collapsible: true,
+        items: [
+            {
+                text: "oauth list",
+                link: "/api/v2/developer/oauth-list",
+            },
+            {
+                text: "oauth create",
+                link: "/api/v2/developer/oauth-create",
+            },
+            {
+                text: "oauth delete",
+                link: "/api/v2/developer/oauth-delete",
+            },
+            {
+                text: "oauth settting detail",
+                link: "/api/v2/developer/oauth-settting-detail",
+            },
+            {
+                text: "oauth create secret",
+                link: "/api/v2/developer/oauth-secret-create"
+            },
+            {
+                text: "oauth delete secret",
+                link: "/api/v2/developer/oauth-secret-delete"
+            },
+            {
+                text: "oauth start upload logo",
+                link: "/api/v2/developer/oauth-start-upload-logo"
+            },
+            {
+                text: "oauth finish upload logo",
+                link: "/api/v2/developer/oauth-finish-upload-logo"
+            }
+        ]
+    },
+    {
+        text: "application",
+        collapsible: true,
+        items: [
+            {
+                text: "application list",
+                link: "/api/v2/application/list",
+            },
+            {
+                text: "application detail",
+                link: "/api/v2/application/detail",
+            },
+            {
+                text: "application revoke",
+                link: "/api/v2/application/revoke",
+            }
+        ]
     }
 ]
