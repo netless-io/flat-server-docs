@@ -47,14 +47,14 @@ HTTP Status Code: `200`
 ```ts
 {
     status: Status.Success;
-    data: Array<{
+    data: {
         ownerName: string;
         appName: string;
         appDesc: string;
         homepageURL: string;
         logoURL: string;
         scopes: DeveloperOAuthScope[]
-    }>;
+    };
 }
 ```
 
