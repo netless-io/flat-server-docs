@@ -76,6 +76,10 @@ export default [
                 link: "/api/v2/developer/oauth-delete",
             },
             {
+                text: "oauth update",
+                link: "/api/v2/developer/oauth-update",
+            },
+            {
                 text: "oauth settting detail",
                 link: "/api/v2/developer/oauth-settting-detail",
             },
