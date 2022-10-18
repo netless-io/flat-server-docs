@@ -118,5 +118,31 @@ export default [
                 link: "/api/v2/application/revoke",
             }
         ]
+    },
+    {
+        text: "auth2",
+        collapsible: true,
+        items: [
+            {
+                text: "index",
+                link: "/api/v2/auth2/index",
+            },
+            {
+                text: "authorize view",
+                link: "/api/v2/auth2/authorize",
+            },
+            {
+                text: "access token",
+                link: "/api/v2/auth2/access-token",
+            },
+            {
+                text: "refresh token",
+                link: "/api/v2/auth2/refresh-token",
+            },
+            {
+                text: "user profile",
+                link: "/api/v2/auth2/api/user-profile",
+            },
+        ]
     }
 ]
