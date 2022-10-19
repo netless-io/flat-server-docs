@@ -27,6 +27,10 @@ export default [
             {
                 text: "DeveloperOAuthScope",
                 link: "/types/developer-oauth-scope"
+            },
+            {
+                text: "RoomExportUserItem",
+                link: "/types/room-export-user-item"
             }
         ]
     }

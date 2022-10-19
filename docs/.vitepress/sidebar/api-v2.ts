@@ -60,6 +60,16 @@ export default [
         ]
     },
     {
+        text: "room",
+        collapsible: true,
+        items: [
+            {
+                text: "export users",
+                link: "/api/v2/room/export-users",
+            },
+        ]
+    },
+    {
         text: "developer",
         collapsible: true,
         items: [
