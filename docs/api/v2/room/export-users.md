@@ -78,7 +78,7 @@ The title of the room
 
 #### users
 
-The user information joined the room. Ref: [`RoomExportUserItem`]](/types/room-export-user-item)
+The user information joined the room. Ref: [`RoomExportUserItem`](/types/room-export-user-item)
 
 ### Failed
 
